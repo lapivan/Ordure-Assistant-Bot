@@ -2,7 +2,6 @@ import asyncio
 from telegram import Update, Message, InputMediaPhoto, InputMediaVideo
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
-# Импортируем настройки из отдельного файла
 import config
 
 SOURCE_CHANNEL_ID = config.SOURCE_CHANNEL_ID
